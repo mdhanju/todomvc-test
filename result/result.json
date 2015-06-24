@@ -1,0 +1,440 @@
+[
+  {
+    "id": "Validae-ToDo-Page",
+    "name": "Validae ToDo Page",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/maninderdhanju/Documents/projects/codeChallenge/todomvc-test/e2e/features/addTodo.feature",
+    "elements": [
+      {
+        "name": "Validate Todo page",
+        "id": "Validae-ToDo-Page;validate-todo-page",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "duration": 450604,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I am on ToDo page",
+            "line": 4,
+            "keyword": "Given ",
+            "result": {
+              "duration": 4603938727,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see title \"Backbone.js • TodoMVC\"",
+            "line": 5,
+            "keyword": "And ",
+            "result": {
+              "duration": 12878707,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see enter new toDo \"todo one\"",
+            "line": 6,
+            "keyword": "And ",
+            "result": {
+              "duration": 158214826,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I press enter",
+            "line": 7,
+            "keyword": "And ",
+            "result": {
+              "duration": 1044427306,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I verify \"todo one\" is displayed",
+            "line": 8,
+            "keyword": "And ",
+            "result": {
+              "duration": 48347862,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I verify todo count with \"1\" todo",
+            "line": 9,
+            "keyword": "And ",
+            "result": {
+              "duration": 40165403,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I verify link \"All\" with href \"http://todomvc.com/examples/backbone/#/\"",
+            "line": 10,
+            "keyword": "And ",
+            "result": {
+              "duration": 44606481,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I verify link \"Active\" with href \"http://todomvc.com/examples/backbone/#/active\"",
+            "line": 11,
+            "keyword": "And ",
+            "result": {
+              "duration": 38691621,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I verify link \"Completed\" with href \"http://todomvc.com/examples/backbone/#/completed\"",
+            "line": 12,
+            "keyword": "And ",
+            "result": {
+              "duration": 40608060,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "duration": 570885610,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Validae-Complete-ToDo",
+    "name": "Validae Complete ToDo",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/maninderdhanju/Documents/projects/codeChallenge/todomvc-test/e2e/features/completeTodo.feature",
+    "elements": [
+      {
+        "name": "Validate Complete Todo",
+        "id": "Validae-Complete-ToDo;validate-complete-todo",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "duration": 121730,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I am on ToDo page",
+            "line": 4,
+            "keyword": "Given ",
+            "result": {
+              "duration": 3698996751,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see title \"Backbone.js • TodoMVC\"",
+            "line": 5,
+            "keyword": "And ",
+            "result": {
+              "duration": 10080191,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "duration": 566986106,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Validae-Delete-ToDo",
+    "name": "Validae Delete ToDo",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/maninderdhanju/Documents/projects/codeChallenge/todomvc-test/e2e/features/deleteTodo.feature",
+    "elements": [
+      {
+        "name": "Validate Delete Todo",
+        "id": "Validae-Delete-ToDo;validate-delete-todo",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "duration": 127182,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I am on ToDo page",
+            "line": 4,
+            "keyword": "Given ",
+            "result": {
+              "duration": 3684598397,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see title \"Backbone.js • TodoMVC\"",
+            "line": 5,
+            "keyword": "And ",
+            "result": {
+              "duration": 9762099,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "duration": 579369713,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Validae-Negative-ToDo",
+    "name": "Validae Negative ToDo",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/maninderdhanju/Documents/projects/codeChallenge/todomvc-test/e2e/features/negativeTest.feature",
+    "elements": [
+      {
+        "name": "Validate Negative Todo",
+        "id": "Validae-Negative-ToDo;validate-negative-todo",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "duration": 88730,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I am on ToDo page",
+            "line": 4,
+            "keyword": "Given ",
+            "result": {
+              "duration": 3722602198,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see title \"Backbone.js • TodoMVC\"",
+            "line": 5,
+            "keyword": "And ",
+            "result": {
+              "duration": 9307017,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "duration": 566912236,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Validae-Sort-ToDo",
+    "name": "Validae Sort ToDo",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/maninderdhanju/Documents/projects/codeChallenge/todomvc-test/e2e/features/sortTodo.feature",
+    "elements": [
+      {
+        "name": "Validate Sort Todo",
+        "id": "Validae-Sort-ToDo;validate-sort-todo",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "duration": 138102,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I am on ToDo page",
+            "line": 4,
+            "keyword": "Given ",
+            "result": {
+              "duration": 3652193644,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see title \"Backbone.js • TodoMVC\"",
+            "line": 5,
+            "keyword": "And ",
+            "result": {
+              "duration": 9916622,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "duration": 568476781,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Validae-ToDo-Page",
+    "name": "Validae ToDo Page",
+    "description": "",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/maninderdhanju/Documents/projects/codeChallenge/todomvc-test/e2e/features/view.feature",
+    "elements": [
+      {
+        "name": "Validate Todo page",
+        "id": "Validae-ToDo-Page;validate-todo-page",
+        "line": 3,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "duration": 181990,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I am on ToDo page",
+            "line": 4,
+            "keyword": "Given ",
+            "result": {
+              "duration": 3701452815,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see title \"Backbone.js • TodoMVC\"",
+            "line": 5,
+            "keyword": "And ",
+            "result": {
+              "duration": 15399490,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see header \"todos\"",
+            "line": 6,
+            "keyword": "And ",
+            "result": {
+              "duration": 37096913,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I see input with placeholder \"What needs to be done?\"",
+            "line": 7,
+            "keyword": "And ",
+            "result": {
+              "duration": 28211889,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "duration": 569017181,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]
